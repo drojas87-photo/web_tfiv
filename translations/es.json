@@ -1,0 +1,25 @@
+{
+    "header" : {
+        "home" : "Inicio",
+        "gallery" : "Galeria",
+        "sessions" : "Sesiones",
+        "about" : "Acerca de"
+    },
+    
+    "index": {
+        "mainTitle": "LLEVATE TU FOTO RECUERDO",
+        "mainSubTitle": "Tomate fotos profesionales mientras paseas por lugares emblematicos de la ciudad.",
+        "galleryButton": "VER GALERIA",
+        "agendaButton": "AGENDA"
+    },
+    "about" : {
+
+    },
+    "book" : {
+
+    },
+    "gallery" : {
+
+    }
+
+}

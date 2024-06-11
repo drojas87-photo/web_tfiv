@@ -1,0 +1,25 @@
+{
+    "header" : {
+        "home" : "Inicio",
+        "gallery" : "Galeria",
+        "sessions" : "Sesiones",
+        "about" : "Acerca de"
+    },
+    
+    "index": {
+        "mainTitle": "SESION DE FOTOS DIVERTIDA EN BUENOS AIRES LLEVATE TU RECUERDO",
+        "mainSubTitle": "Agenda tu sesion de fotografía profesional mientras paseas por lugares emblematicos de la ciudad.",
+        "galleryButton": "VER GALERIA",
+        "agendaButton": "AGENDA"
+    },
+    "about" : {
+
+    },
+    "book" : {
+
+    },
+    "gallery" : {
+
+    }
+
+}

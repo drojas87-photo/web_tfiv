@@ -1,0 +1,26 @@
+{
+    "header" : {
+        "home" : "Inicio",
+        "gallery" : "Galeria",
+        "sessions" : "Sesiones",
+        "about" : "Acerca de"
+    },
+    
+    "index": {
+        "mainTitle": "HAVE FUN AND THE BEST PHOTO EXPERIENCE IN CITY",
+        "mainSubTitle": "Book your profesional photo session, take pictures while you have a nice walk tour around the city",
+        "galleryButton": "VIEW GALLERY",
+        "agendaButton": "BOOK"
+    },
+    "about" : {
+
+    },
+    "book" : {
+
+    },
+    "gallery" : {
+
+    }
+
+}
+
