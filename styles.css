@@ -109,3 +109,21 @@ main {
 .buttons button:hover {
     background-color: #cc0000;
 }
+
+
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.logo {
+    color: #ffffff; /* Color del texto del logotipo */
+    font-size: 24px; /* Tamaño de fuente del logotipo */
+    margin-right: auto; /* Empuja el logotipo hacia la izquierda */
+    margin-left: 20px; /* Añade un espacio a la izquierda del logotipo */
+}
