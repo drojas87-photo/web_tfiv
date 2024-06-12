@@ -141,8 +141,27 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 40px 20px 0 20px;
 
 
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .box .image-column {
+    display :flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .image-column img {
+    width: 100%;
 }
 
 .logo_container {
