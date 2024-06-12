@@ -1,9 +1,9 @@
 {
     "header" : {
-        "home" : "Inicio",
-        "gallery" : "Galeria",
-        "sessions" : "Sesiones",
-        "about" : "Acerca de"
+        "home" : "Home",
+        "gallery" : "Portfolio",
+        "sessions" : "Sessions",
+        "about" : "About"
     },
     
     "index": {

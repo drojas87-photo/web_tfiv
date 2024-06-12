@@ -13,25 +13,27 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="assets/icons/logo_pagina.svg"></img>
+        <div class="logo_container">
+            <div class="logo_item">
+                <img src="assets/icons/logo_pagina.svg"></img>
+            </div>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="sesiones.html">Sesiones</a></li>
-                <li><a href="acerca.html">Acerca de</a></li>
+                <li data-section="header" data-value ="home"><a href="index.html">Home</a></li>
+                <li data-section="header" data-value ="gallery"><a href="galeria.html">Galeria</a></li>
+                <li data-section="header" data-value ="sessions"><a href="sesiones.html">Sesiones</a></li>
+                <li data-section="header" data-value ="about"><a href="acerca.html">Acerca de</a></li>
             </ul>
         </nav>
         <div id="flags" class="flags">
-            <div class="flags_item">
+            <div class="flags_item" data-language="es">
                 <img src="assets/icons/ar.svg"></img>
             </div>
-            <div class="flags_item">
+            <div class="flags_item" data-language="pt">
                 <img src="assets/icons/br.svg"></img>
             </div>
-            <div class="flags_item">
+            <div class="flags_item" data-language="en">
                 <img src="assets/icons/us.svg"></img>
             </div>
         </div>

@@ -27,6 +27,7 @@ header {
 .flags_item {
     width: 60px;
     padding-left: 5px;
+    cursor: pointer;
 }
 
 
@@ -72,6 +73,15 @@ main {
     padding: 20px;
 }
 
+.hero-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 .hero-image {
     position: absolute;
     top: 0;
@@ -79,9 +89,14 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.5;
-    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
+
+.hero-image.active {
+    opacity: 0.5;
+}
+
 
 .hero-content {
     position: relative;
@@ -141,4 +156,51 @@ main {
     padding-left: 5px;
     padding-top: 5px;
     height: 20px;
+}
+
+
+/* Styles for the About section */
+#acerca {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f4f4f4; /* Fondo del contenedor gris claro */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-text {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-text h1 {
+    font-size: 28px;
+    color: #FF5733; /* Color del encabezado naranja */
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #333333; /* Color del texto gris oscuro */
 }
