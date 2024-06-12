@@ -223,3 +223,48 @@ main {
     font-size: 18px;
     color: #333333; /* Color del texto gris oscuro */
 }
+
+
+#sesiones {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.session-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.session-item {
+    width: 30%;
+    position: relative;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.session-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.session-item:hover img {
+    opacity: 1;
+}
+
+.session-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+}
