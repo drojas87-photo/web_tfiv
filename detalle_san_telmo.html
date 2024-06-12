@@ -44,13 +44,25 @@
                     <img src="assets/santelmo_detalle.jpeg" alt="About Image">
                 </div>
                 <div class="about-text">
-                    <h1>San Telmo/h1>
+                    <h1>San Telmo</h1>
                     <p>
                         El barrio historico de la ciudad de Buenos Aires, los fines de semana hay una feria...
                     </p>
                 </div>
+                <div class="buttons">
+                    <button class="map-button" data-image="assets/san_telmo_map.jpg">Ver Mapa</button>
+                    <button onclick="location.href='formulario.html'">Ver Disponibilidad</button>
+                </div>
             </div>
         </section>
     </main>
+
+    <div id="map-popup" class="map-popup">
+        <div class="map-popup-content">
+            <span class="close">&times;</span>
+            <img id="map-popup-image" src="" alt="Map Image">
+        </div>
+    </div>
+    <script src="popup.js"></script>
 </body>
 </html>
